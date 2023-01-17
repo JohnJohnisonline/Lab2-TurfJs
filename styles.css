@@ -1,0 +1,9 @@
+#map{
+  width: auto;
+  height: 98vh
+}
+header {
+  background-color: #e6e6e6;
+  padding: 10px;
+  text-align: center;
+}

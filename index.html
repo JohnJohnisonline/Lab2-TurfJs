@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pierce County Libraries proximity to Public Health Facilities </title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--These settings are ideal for full-screen mobile use-->
+	<link rel="stylesheet" href="styles.css"/>
+	<!-- mapbox links -->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+	<!--Turf Js -->
+	<script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
+</head>
+<body>
+	<header>
+		<h3>Pierce County Libraries proximity to Public Health Facilities </h3>
+		<p>This map shows the locations of all Pierce County <a href="https://gisdata-piercecowa.opendata.arcgis.com/datasets/libraries/explore" target="_blank">libraries</a>, and the closest <a href="https://gisdata-piercecowa.opendata.arcgis.com/datasets/public-health-care-facilities/explore" target="_blank">hospitals</a> to each library.</p>
+	</header>
+	
+	<div id='map'></div>
+	<script src="scripts.js"></script>
+	<script src="data/libraries.js"></script>
+	<script src="data/hospitals.js"></script>
+
+</body>
+</html>
